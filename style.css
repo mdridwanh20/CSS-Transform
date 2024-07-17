@@ -1,0 +1,45 @@
+.rotate-skew-scale-origin{
+    max-width: 1400px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    border: 1px solid;
+}
+.box{
+    background-color: aliceblue;
+    padding: 15px;
+    width: 150px;
+    border: 1px solid;
+    height: 250px;
+}
+.box1{
+    transform: rotate(-45deg);
+    border-radius: 3px;
+}
+.box2{
+    transform: skew(30deg);
+    border-radius: 3px;
+}
+.box3{
+    transform: skewX(-20deg);
+    border-radius: 3px;
+}
+.box4{
+    transform: skewY(30deg);
+    border-radius: 3px;
+}
+
+.box5{
+    transform: scale(1.1);
+    /* transform: scale3d(); */
+    /* transform: scaleX(); */
+    /* transform: scaleY(); */
+    /* transform: scaleY(); */
+    border-radius: 3px;
+}
+.box6{
+    transform: rotate(45deg);
+    transform-origin: 50% 30%;
+}
